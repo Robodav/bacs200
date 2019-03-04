@@ -1,0 +1,57 @@
+#Bear_Logo {
+	float:right;
+}
+
+html {
+	background-color: #131313;
+}
+
+h1 {
+	font-family: system-ui, serif;
+	color: white;
+	font-size: 48px;
+	text-align: center;
+	text-shadow: grey 2px 2px;
+}
+
+h2 {
+	color: white;
+	font-family: system-ui, serif;
+	display: inline-block;
+}
+
+p {
+	padding-top: 0px;
+}
+
+#petimage {
+	outline-style: double;
+	outline-color: gold;
+	display: inline-block;
+}
+
+img:hover {
+	outline-offset: 5px;
+}
+
+ul {
+	list-style-type: circle;
+	color: white;
+}
+
+#petlist {
+	list-style: none;
+}
+
+a:link {
+	font-family: system-ui, serif;
+	color: #05ffe1;
+}
+
+a:visited {
+	color: #e448f2;
+}
+
+a:hover {
+	color: #11c648;
+}

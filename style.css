@@ -1,0 +1,16 @@
+h1 {
+  color: green;
+  text-align: center;
+  text-shadow: 2px 2px ;
+  font-family: sans-serif;
+}
+
+p {
+  color: red;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+li {
+  font-style: italic;
+}

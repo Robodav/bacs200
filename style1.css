@@ -1,0 +1,55 @@
+html {
+	background-color: #131313;
+}
+
+#main_heading {
+	color: white;
+	font-family: system-ui, serif;
+	border: 1.5px solid #11c648;
+	border-radius: 12px;
+	width: fit-content;
+	padding: .5em;
+}
+
+#bear_logo {
+	
+}
+
+#subtitle {
+	font-family: system-ui, serif;
+	color: white;
+
+}
+
+#websites {
+	border: 1.5px solid #11c648;
+	border-radius: 12px;
+	width: fit-content;
+	padding: 0px 10px 0px 10px;
+	margin-top: 1em;
+}
+
+h2 {
+	font-family: system-ui, serif;
+	color: white;
+}
+
+ul {
+	list-style-type: circle;
+	width: fit-content;
+	background: #41241;
+	color: white;
+}
+
+a:link {
+	font-family: system-ui, serif;
+	color: #05ffe1;
+}
+
+a:visited {
+	color: #e448f2;
+}
+
+a:hover {
+	color: #11c648;
+}

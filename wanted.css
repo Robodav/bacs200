@@ -1,0 +1,42 @@
+/*html {
+	background-color: gray;
+	font-family: New Courier, Courier;
+	font-size: 24px;
+}*/
+
+header {
+	text-align: center;
+	background-color: beige;
+	border-radius: 1em;
+	box-shadow: 5px 5px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-color: gray;
+	font-family: New Courier, Courier;
+	font-size: 24px;
+}
+
+main {
+	background-color: lightyellow;
+	border: 1px solid black;
+	border-radius: 1em;
+	box-shadow: 5px 5px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	max-width: 800px;
+}
+
+img {
+	align-content: center;
+	border: 20px solid white;
+}
+
+footer a {
+	color: white;
+}
