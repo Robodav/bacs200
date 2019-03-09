@@ -65,14 +65,14 @@
     font-size: 12px;
 }
 
-html {
-    background-color: black;
-}
-
 #top {
     background-color: #0c1e8e;
     padding: 20px;
     margin: 10px;
+}
+
+html {
+    background-color: black;
 }
 
 main {
