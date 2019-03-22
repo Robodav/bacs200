@@ -52,17 +52,16 @@
     text-decoration: none;
 }
 
-#main_heading {
+header {
     color: white;
     font-family: system-ui, serif;
-    text-align: center;
+    font-size: 28px;
+    text-align: left;
 }
 
 #subtitle {
-    color: white;
-    font-family: system-ui, serif;
-    text-align: center;
     font-size: 12px;
+    margin-top: -2%;
 }
 
 #top {
