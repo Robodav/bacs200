@@ -1,57 +1,126 @@
-#Bear_Logo {
-	float:right;
+#main-menu {
+    display: inline-block;
+}
+
+#main-menu ul {
+    list-style-type: none;
+    padding: 0em;
+    /* text-align: center; */
+    background-color: black;
+    display: inline-block;
+}
+
+#main-menu ul li {
+    display: inline;
+    padding: 2% 0em;
+    /* border: 2px solid yellow; */
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+#main-menu ul li a {
+    color: white;
+    display: inline-block;
+    font-family: system-ui, serif;
+    font-weight: bold;
+    padding: 1em;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    /* padding: 20px; */
+    margin: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+
+header img {
+    display: inline-block;
+    margin: 1em;
+    float: right;
+    vertical-align: middle;
+    width: 200px;
+}
+
+#side-menu {
+    margin: 10px;
+    margin-left: -40px;
+    margin-top: -40px;
+    float: left;
+    background-color: #0c1e8e;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+}
+
+#side-menu ul {
+    list-style-type: none;
+}
+
+#side-menu ul li {
+    padding: 1em;
+    width: 200px;
+    margin: 10px;
+    margin-left: -30px;
+    background-color: lightblue;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#side-menu ul li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-family: system-ui, serif;
+    text-decoration: none;
+}
+
+#subtitle {
+    font-size: 12px;
+    margin-top: -2%;
 }
 
 html {
-	background-color: #131313;
+    background-color: black;
 }
 
-h1 {
-	font-family: system-ui, serif;
-	color: white;
-	font-size: 48px;
-	text-align: center;
-	text-shadow: grey 2px 2px;
+#top {
+    color: white;
+    font-family: system-ui, serif;
+    font-size: 28px;
+    text-align: left;
+    vertical-align: top;
+
 }
 
-h2 {
-	color: white;
-	font-family: system-ui, serif;
-	display: inline-block;
-}
-
-p {
-	padding-top: 0px;
-}
-
-#petimage {
-	outline-style: double;
-	outline-color: gold;
-	display: inline-block;
-}
-
-img:hover {
-	outline-offset: 5px;
+#top #main_heading {
+    margin-top: 0;
+    margin-bottom: 2%;
 }
 
 ul {
-	list-style-type: circle;
-	color: white;
+    list-style-type: none;
+    font-size: 20px;
 }
 
-#petlist {
-	list-style: none;
+a {
+    font-family: system-ui, serif;
+    /* color: white; */
 }
 
-a:link {
-	font-family: system-ui, serif;
-	color: #05ffe1;
+main {
+    background-color: #141414;
+    font-family: system-ui, serif;
+    color: white;
+    padding: 25px;
+    /* padding: 2%; */
+    margin: 10px;
 }
 
-a:visited {
-	color: #e448f2;
-}
-
-a:hover {
-	color: #11c648;
+footer {
+    background-color: #141414;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
 }

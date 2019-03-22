@@ -98,8 +98,19 @@ html {
     margin-bottom: 2%;
 }
 
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+a {
+    font-family: system-ui, serif;
+    /* color: white; */
+}
+
 main {
     background-color: #141414;
+    font-family: system-ui, serif;
     color: white;
     padding: 25px;
     /* padding: 2%; */
