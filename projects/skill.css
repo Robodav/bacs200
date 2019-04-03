@@ -1,0 +1,149 @@
+#main-menu {
+    display: inline-block;
+}
+
+#main-menu ul {
+    list-style-type: none;
+    padding: 0em;
+    /* text-align: center; */
+    background-color: black;
+    display: inline-block;
+}
+
+#main-menu ul li {
+    display: inline;
+    padding: 2% 0em;
+    /* border: 2px solid yellow; */
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+#main-menu ul li a {
+    color: white;
+    display: inline-block;
+    font-family: system-ui, serif;
+    font-weight: bold;
+    padding: 1em;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    /* padding: 20px; */
+    margin: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+
+header img {
+    display: inline-block;
+    margin: 1em;
+    float: right;
+    vertical-align: middle;
+    width: 200px;
+}
+
+#side-menu {
+    margin: 10px;
+    margin-left: -40px;
+    margin-top: -40px;
+    float: right;
+    background-color: #0c1e8e;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+}
+
+#side-menu ul {
+    list-style-type: none;
+}
+
+#side-menu ul li {
+    padding: 1em;
+    width: 200px;
+    margin: 10px;
+    margin-left: -30px;
+    background-color: lightblue;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#side-menu ul li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-family: system-ui, serif;
+    text-decoration: none;
+}
+
+#subtitle {
+    font-size: 12px;
+    margin-top: -2%;
+}
+
+html {
+    background-color: black;
+}
+
+#top {
+    color: white;
+    font-family: system-ui, serif;
+    font-size: 28px;
+    text-align: left;
+    vertical-align: top;
+
+}
+
+#top #main_heading {
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+a {
+    font-family: system-ui, serif;
+    /* color: white; */
+}
+
+main {
+    background-color: #141414;
+    font-family: system-ui, serif;
+    color: white;
+    padding: 25px;
+    /* padding: 2%; */
+    margin: 10px;
+}
+
+footer {
+    background-color: #141414;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Skill Bars Below */
+/* Make sure that padding behaves as expected */
+* {
+    box-sizing:border-box
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
