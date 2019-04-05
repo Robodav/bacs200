@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="skill.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Skill</title>
 </head>
 <body>
@@ -18,11 +19,18 @@
 		</nav>
 		<img src="https://dvandiver.com/bacs200/img/Bear_Logo.png" id="bear_logo" alt="UNCO Logo">
 	</header>
-	<main>
+	<div id="bars">
 		<section id="top">
-			<h1 id="main_heading">Skill Bars Tutorial</h1>
+			<h2 id="main_heading">Tutorials</h2>
 			<p id="subtitle">UNC - BACS 200</p>
 		</section>
+
+		<h2>Skill Bars</h2>
+		<p>
+			This is a rather simple addition that you can apply to your resumes and other projects. Skill
+			bars are intended to show mastery over certain skills using progress bars with percent values.
+		</p>
+
 		<p>HTML</p>
 		<div class="container">
 		<div class="skills html">90%</div>
@@ -42,7 +50,87 @@
 		<div class="container">
 		<div class="skills php">60%</div>
 		</div>
-	</main>
+
+		<p>
+			The first thing you'll need to do is enter the HTML:
+		</p>
+		<pre>
+			&lt;p&gt;HTML&lt;/p&gt;
+			&lt;div class="container"&gt;
+			&lt;div class="skills html"&gt;90%&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;p&gt;CSS&lt;/p&gt;
+			&lt;div class="container"&gt;
+			&lt;div class="skills css"&gt;80%&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;p&gt;JavaScript&lt;/p&gt;
+			&lt;div class="container"&gt;
+			&lt;div class="skills js"&gt;65%&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;p&gt;PHP&lt;/p&gt;
+			&lt;div class="container"&gt;
+			&lt;div class="skills php"&gt;60%&lt;/div&gt;
+			&lt;/div&gt;
+		</pre>
+		<p>
+			Separate paragraphs with their own divs allow for unique styling and colors for each bar.
+		</p>
+
+		<p>
+			Now, the CSS will control those styles:
+		</p>
+		<pre>
+			/* Make sure that padding behaves as expected */
+			* {
+				box-sizing:border-box
+			}
+			
+			/* Container for skill bars */
+			.container {
+				width: 100%; /* Full width */
+				background-color: #ddd; /* Grey background */
+			}
+			
+			.skills {
+				text-align: right; /* Right-align text */
+				padding: 10px; /* Add some padding */
+				color: white; /* White text color */
+			}
+			
+			.html {width: 90%; background-color: #4CAF50;} /* Green */
+			.css {width: 80%; background-color: #2196F3;} /* Blue */
+			.js {width: 65%; background-color: #f44336;} /* Red */
+			.php {width: 60%; background-color: #808080;} /* Dark Grey */
+		</pre>
+		<p>
+			As you can see, this uses CSS tricks to display boxes overlayed with their own backgrounds.
+			The style here is especially important, differing color and making sure the skill names are
+			prominent.
+		</p>
+
+		<p>
+			Press Ctrl + U and take a look at the CSS file skill.css, specifically the bottom section, where
+			the parts that style the bars are located. You can see that in just a few lines, a great looking
+			set of skill bars can be created! Check out the <a href="https://www.w3schools.com/howto/howto_css_skill_bar.asp">
+			tutorial page</a> at W3Schools for more information.
+		</p>
+	</div>
+	<div id="buttons">
+		<h2>Animated Button Press Effect</h2>
+		<button class="button">Press Me</button>
+	</div>
+	<div id="social">
+		<h2>Social Media Buttons</h2>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+	</div>
+	<div id="para">
+		<h2>Parallax Scrolling</h2>
+	</div>
+	<div class="parallax"></div>
 	<footer><p id="copyright"> &copy; Copyright 2019 - David Vandiver</p></footer>
 </body>
 </html>
