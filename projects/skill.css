@@ -108,7 +108,7 @@ a {
     /* color: white; */
 }
 
-main {
+#bars, #buttons, #social, #para{
     background-color: #141414;
     font-family: system-ui, serif;
     color: white;
@@ -147,3 +147,60 @@ footer {
 .css {width: 80%; background-color: #2196F3;} /* Blue */
 .js {width: 65%; background-color: #f44336;} /* Red */
 .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+/* Animated button code */
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* Social Media Buttons */
+.fa {
+    display: inline;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 50px;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Parallax Scrolling */
+  .parallax {
+      background-image: url("../img/tokyo-city.jpg");
+      height: 1000px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
